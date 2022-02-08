@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <!--Header for the Page-->
@@ -15,23 +14,20 @@
     </div>
 
     <!--Body for the Etch-a-Sketch-->
-    <div class="container">
-        <div class="options">
-          <h3>OPTIONS</h3>
-          <button class="color">Color</button>
-          <button class="clear">Clear Art</button>
-          <input type="number " class="sizing">Sizing</button>
-        </div>
-
-        <div class="game">
-
-        </div>
+    <div class="right">
+      <div class="gridContainer"></div>
+    </div>
+    <div class="page">
+      <h1>ETCH-A-SKETCH</h1>
+      <label for="quantity">Type A Value For Grid Size:</label>
+      <input type="number" id="quantity" name="quantity" />
+      <button class="reset">RESET</button>
     </div>
     
     <!--Footer for the page / clears game-->
     <div class="footer">
       by Jared
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
